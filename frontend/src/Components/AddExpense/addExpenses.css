@@ -1,0 +1,16 @@
+
+
+
+
+.addExpense {
+  background-color: rgb(192, 210, 241);
+  width: 50%;
+  margin: 50px auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.065);
+}
+
+

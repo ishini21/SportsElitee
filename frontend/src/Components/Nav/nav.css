@@ -1,0 +1,77 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Set a fallback font */
+}
+
+/* Main Content Styling */
+main {
+  margin: 0 20px; /* Shorthand for top/bottom 0, left/right 20px */
+}
+
+/* Navigation Styling */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#1877F2; /* Facebook blue color */
+  overflow: hidden;
+  height: 50px; /* Adjust the height of the navigation bar */
+  font-weight: bolder;
+}
+
+.navbar li {
+  display: inline-block; /* Display list items horizontally */
+  margin: 0 10px; /* Spacing between navigation items */
+}
+
+/* Navigation Link Styling */
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 16px; /* Decreased font size */
+  padding: 16px 10px; /* Adjusted padding to match the height of the navigation bar */
+  text-align: center;
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+/* Hover Effect */
+.navbar a:hover {
+  background-color: #333; /* Darker shade on hover */
+}
+
+/* Active Link Styling */
+.navbar .active a {
+  background-color: #555; /* Darker shade for active link */
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar a {
+    font-size: 14px; /* Decreased font size for smaller screens */
+  }
+}
+
+/* Sign Up Button Styling */
+* Sign Up Button Styling */
+.signup-btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.signup-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.signup-btn a:hover {
+  background-color: white;
+  color: black;
+}
