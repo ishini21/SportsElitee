@@ -1,0 +1,19 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.c1 {
+    display: flex;
+    background-color: rgba(149, 154, 158, 0.338);
+    height: 40vh;
+    width: 350px;
+    margin: 5vh auto 0 auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,50 @@
+.bg1 {
+    
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(156, 163, 163);
+}
+
+button {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px; /* Adjust padding for inner spacing */
+    width: 200px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    font-size: 12px; /* Adjust font size */
+    background-color: #0c779b; /* Change button color */
+    color: rgb(12, 13, 96); /* Change text color */
+    border: 2px solid rgb(8, 37, 48);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.search {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px; /* Adjust padding for inner spacing */
+    width: 100px; /* Adjust width */
+    height: 30px; /* Adjust height */
+    font-size: 10px; /* Adjust font size */
+    background-color: #25c0dc; /* Change button color */
+    color: rgb(10, 46, 123); /* Change text color */
+    border: 2px solid rgb(8, 37, 48);
+    border-radius: 8px;
+}
+
+th{
+    background-color: rgb(76, 75, 75);
+}
+
